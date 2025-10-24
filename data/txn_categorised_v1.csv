@@ -1,0 +1,11 @@
+﻿txn_id,description_raw,clean_text,matched_merchant,match_type,l0_channel,l1_intent,l2_vertical,confidence,rationale_fired
+T1,DEWA Payment 123456 09/10,dewa payment,DEWA,regex,L0.A2A,L1.BILL,V.UTIL,0.88,MKB_MATCH
+T2,SALIK topup via Mashreq,salik topup via mashreq,Salik,regex,L0.A2A,L1.GOV,V.TOLL,0.92,MKB_MATCH
+T3,Payment to Al Ansari Exchange,payment to al ansari exchange,Al Ansari Exchange,regex,L0.REM,L1.REM,V.REMX,0.88,MKB_MATCH
+T4,du bill payment,du bill payment,du,regex,L0.A2A,L1.BILL,V.TELC,0.92,MKB_MATCH
+T5,ADNOC petrol station,adnoc petrol station,ADNOC,regex,L0.CARD,L1.BUY,V.FUEL,0.92,MKB_MATCH
+T6,GEMS school fees term 1,gems school fees term,GEMS Education,regex,L0.A2A,L1.EDU,V.EDU,0.92,MKB_MATCH
+T7,Carrefour Dubai Mall,carrefour dubai mall,Carrefour,regex,L0.CARD,L1.BUY,V.RETL,0.95,MKB_MATCH
+T8,Zakat Fund donation,zakat fund donation,,none,L0.CARD,L1.BUY,V.CHA,0.18,ARABIC_KEYWORD
+T9,Netflix.com subscription,netflix com subscription,Netflix,regex,L0.CARD,L1.BUY,V.LIFE,0.95,MKB_MATCH
+T10,Random Merchant XYZ,random merchant xyz,,none,L0.CARD,L1.BUY,,0.12,

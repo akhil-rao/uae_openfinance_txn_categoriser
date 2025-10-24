@@ -1,0 +1,11 @@
+﻿txn_id,description_raw,description_clean,language,matched_merchant,match_type,match_confidence
+T1,DEWA Payment 123456 09/10,dewa payment,EN,DEWA,regex,1.0
+T2,SALIK topup via Mashreq,salik topup via mashreq,EN,Salik,regex,1.0
+T3,Payment to Al Ansari Exchange,payment to al ansari exchange,EN,Al Ansari Exchange,regex,1.0
+T4,du bill payment,du bill payment,EN,du,regex,1.0
+T5,ADNOC petrol station,adnoc petrol station,EN,ADNOC,regex,1.0
+T6,GEMS school fees term 1,gems school fees term,EN,GEMS Education,regex,1.0
+T7,Carrefour Dubai Mall,carrefour dubai mall,EN,Carrefour,regex,1.0
+T8,Zakat Fund donation,zakat fund donation,EN,,none,0.0
+T9,Netflix.com subscription,netflix com subscription,EN,Netflix,regex,1.0
+T10,Random Merchant XYZ,random merchant xyz,EN,,none,0.0

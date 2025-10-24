@@ -1,0 +1,301 @@
+entity_id,canonical_name,aka_names,l0_default,l1_default,l2_vertical,contexts_suggested,regex_signatures,mcc_codes,channels,ownership,risk_flags,geo_city,country,notes_rationale
+MKB0001,DEWA,Dubai Electricity & Water; ديوا; Dubai Electricity,L0.A2A,L1.BILL,V.UTIL,CX.SUB,\bDEWA\b; DUBAI\s*ELECTRICITY,4900,A2A; CARD,Government,,Dubai,UAE,Official utility biller
+MKB0002,SEWA,Sharjah Electricity & Water; هيئة كهرباء ومياه الشارقة,L0.A2A,L1.BILL,V.UTIL,CX.SUB,\bSEWA\b,4900,A2A; CARD,Government,,Sharjah,UAE,Official utility biller
+MKB0003,FEWA,Etihad Water & Electricity; هيئة كهرباء ومياه الإتحاد,L0.A2A,L1.BILL,V.UTIL,CX.SUB,\bFEWA\b; \bEtihad\s*Water\b,4900,A2A; CARD,Government,,Dubai,UAE,Official utility biller
+MKB0004,ADDC,Abu Dhabi Distribution Co,L0.A2A,L1.BILL,V.UTIL,CX.SUB,\bADDC\b; ABU\s*DHABI\s*DISTR,4900,A2A; CARD,Government,,Abu Dhabi,UAE,Official utility biller
+MKB0005,AADC,Al Ain Distribution Co,L0.A2A,L1.BILL,V.UTIL,CX.SUB,\bAADC\b; AL\s*AIN\s*DISTR,4900,A2A; CARD,Government,,Al Ain,UAE,Official utility biller
+MKB0006,Salik,RTA Salik; سالك,L0.A2A,L1.GOV,V.TOLL,CX.SUB; CX.CAR,\bSALIK\b; RTA.*SALIK,4784,A2A; CARD,Government,,Dubai,UAE,Road tolls
+MKB0007,Nol,RTA Nol; مترو دبي,L0.A2A,L1.GOV,V.TOLL,CX.SUB,\bNOL\b; RTA\s*NOL; METRO\s*TOP-?UP,4111,A2A; CARD; WALLET,Government,,Dubai,UAE,Transit top-ups
+MKB0008,Dubai Police,Dubai Police Fines; شرطة دبي,L0.A2A,L1.GOV,V.GOVT,,DUBAI\s*POLICE,,A2A; CARD,Government,,Dubai,UAE,Fines and fees
+MKB0009,Mawaqif,Abu Dhabi Parking; مواقف,L0.A2A,L1.GOV,V.TOLL,,\bMAWAQIF\b; ABU\s*DHABI\s*PARKING,,A2A; CARD; WALLET,Government,,Abu Dhabi,UAE,Parking payments
+MKB0010,e& Etisalat,Etisalat; اتصالات; e& money,L0.A2A,L1.BILL,V.TELC,CX.SUB,ETISALAT|e\&|E\s*&\s*Money,4814,A2A; CARD; WALLET,Private,,Abu Dhabi,UAE,Telecom bills/recharge
+MKB0011,du,DU Telecom; دو,L0.A2A,L1.BILL,V.TELC,CX.SUB,\bDU\b\s*(TELECOM|BILL|RECHARGE)?,4814,A2A; CARD; WALLET,Private,,Dubai,UAE,Telecom bills/recharge
+MKB0012,Virgin Mobile UAE,Virgin Mobile; فيرجن,L0.A2A,L1.BILL,V.TELC,CX.SUB,VIRGIN\s*MOBILE,4814,A2A; CARD,Private,,Dubai,UAE,Telecom bills/recharge
+MKB0013,ADNOC,ADNOC Service Station; أدنوك,L0.CARD,L1.BUY,V.FUEL,CX.CAR,\bADNOC\b,5541; 5983,CARD,Government,,Abu Dhabi,UAE,Fuel/EV services
+MKB0014,ENOC,EPPCO; اينوك,L0.CARD,L1.BUY,V.FUEL,CX.CAR,\bENOC\b|\bEPPCO\b,5541,CARD,Government,,Dubai,UAE,Fuel services
+MKB0015,Emarat,EMARAT Service; امارات,L0.CARD,L1.BUY,V.FUEL,CX.CAR,\bEMARAT\b,5541,CARD,Government,,Dubai,UAE,Fuel services
+MKB0016,RTA Vehicle Testing,Tasjeel; Shamil,L0.CARD,L1.GOV,V.GOVT,CX.CAR,TASJEEL|SHAMIL|RTA\s*TEST,,CARD; A2A,Government,,Dubai,UAE,Vehicle inspections
+MKB0017,Al Ansari Exchange,Al Ansari; الأنصاري,L0.REM,L1.REM,V.REMX,CX.CORR,AL\s*ANSARI,4829,A2A; CARD,Private,,Dubai,UAE,Remittance
+MKB0018,LuLu Exchange,Lulu Exchange; لولو للصرافة,L0.REM,L1.REM,V.REMX,CX.CORR,LULU\s*EXCH,4829,A2A; CARD,Private,,Abu Dhabi,UAE,Remittance
+MKB0019,Unimoni,UAE Exchange; يوايه إكسشينج,L0.REM,L1.REM,V.REMX,CX.CORR,UNIMONI|UAE\s*EXCHANGE,4829,A2A; CARD,Private,,Abu Dhabi,UAE,Remittance
+MKB0020,Al Fardan Exchange,Al Fardan,L0.REM,L1.REM,V.REMX,CX.CORR,AL\s*FARDAN,4829,A2A; CARD,Private,,Dubai,UAE,Remittance
+MKB0021,Emirates NBD,ENBD; Emirates NBD Fees,L0.FEE,L1.FEE,V.BANK,,EMIRATES\s*NBD|ENBD,,A2A; CARD,Private,regulated,Dubai,UAE,Bank fees/interest
+MKB0022,ADCB,Abu Dhabi Commercial Bank,L0.FEE,L1.FEE,V.BANK,,\bADCB\b,,A2A; CARD,Private,regulated,Abu Dhabi,UAE,Bank fees/interest
+MKB0023,FAB,First Abu Dhabi Bank,L0.FEE,L1.FEE,V.BANK,,\bFAB\b|FIRST\s*ABU\s*DHABI,,A2A; CARD,Private,regulated,Abu Dhabi,UAE,Bank fees/interest
+MKB0024,Mashreq,Mashreqbank,L0.FEE,L1.FEE,V.BANK,,MASHREQ,,A2A; CARD,Private,regulated,Dubai,UAE,Bank fees/interest
+MKB0025,Dubai Islamic Bank,DIB,L0.FEE,L1.FEE,V.BANK,,DUBAI\s*ISLAMIC|DIB,,A2A; CARD,Private,regulated,Dubai,UAE,Bank fees/interest
+MKB0026,Emaar,Emaar Properties; EMAAR COMMUNITIES,L0.A2A,L1.PROP,V.PROP,CX.MOVE,\bEMAAR\b,,A2A; CARD,Private,,Dubai,UAE,Property/HOA
+MKB0027,DAMAC,Damac Properties,L0.A2A,L1.PROP,V.PROP,CX.MOVE,\bDAMAC\b,,A2A; CARD,Private,,Dubai,UAE,Property/HOA
+MKB0028,Aldar,Aldar Properties,L0.A2A,L1.PROP,V.PROP,CX.MOVE,\bALDAR\b,,A2A; CARD,Private,,Abu Dhabi,UAE,Property/HOA
+MKB0029,Nakheel,Nakheel PJSC,L0.A2A,L1.PROP,V.PROP,CX.MOVE,\bNAKHEEL\b,,A2A; CARD,Private,,Dubai,UAE,Property/HOA
+MKB0030,Mollak OA,Owners Association Fees; ملاك,L0.A2A,L1.PROP,V.PROP,CX.SUB,MOLLAK|OWNERS\s*ASSOC,,A2A,Government,,Dubai,UAE,OA service charges
+MKB0031,Daman,National Health Insurance,L0.A2A,L1.MED,V.INS,CX.SUB,\bDAMAN\b,6301,A2A; CARD,Government,,Abu Dhabi,UAE,Insurance premiums
+MKB0032,ADNIC,Abu Dhabi National Insurance,L0.A2A,L1.MED,V.INS,CX.SUB,\bADNIC\b,6301,A2A; CARD,Private,,Abu Dhabi,UAE,Insurance premiums
+MKB0033,Oman Insurance,OIC,L0.A2A,L1.MED,V.INS,CX.SUB,OMAN\s*INS,6301,A2A; CARD,Private,,Dubai,UAE,Insurance premiums
+MKB0034,AXA Gulf,AXA,L0.A2A,L1.MED,V.INS,CX.SUB,\bAXA\b,6301,A2A; CARD,Private,,Dubai,UAE,Insurance premiums
+MKB0035,Aster,Aster Clinic; أستر,L0.CARD,L1.MED,V.HEAL,,\bASTER\b,8011,CARD,Private,,Dubai,UAE,Private clinics
+MKB0036,Mediclinic,Mediclinic Middle East,L0.CARD,L1.MED,V.HEAL,,MEDICLINIC,8062,CARD,Private,,Dubai,UAE,Hospitals
+MKB0037,NMC,NMC Healthcare,L0.CARD,L1.MED,V.HEAL,,\bNMC\b,8062,CARD,Private,,Abu Dhabi,UAE,Hospitals
+MKB0038,SEHA,Abu Dhabi Health Services,L0.CARD,L1.MED,V.HEAL,,\bSEHA\b,8062,CARD,Government,,Abu Dhabi,UAE,Public health services
+MKB0039,GEMS Education,GEMS School Fees,L0.A2A,L1.EDU,V.EDU,CX.SCHT,\bGEMS\b,,A2A,Private,,Dubai,UAE,School fees
+MKB0040,SABIS,Choueifat,L0.A2A,L1.EDU,V.EDU,CX.SCHT,SABIS|CHOUEIFAT,,A2A,Private,,Dubai,UAE,School fees
+MKB0041,Zayed University,ZU,L0.A2A,L1.EDU,V.EDU,CX.SCHT,ZAYED\s*UNI|ZU\b,,A2A,Government,,Abu Dhabi,UAE,University fees
+MKB0042,UAE University,United Arab Emirates University,L0.A2A,L1.EDU,V.EDU,CX.SCHT,\bUAEU\b|UAE\s*UNIV,,A2A,Government,,Al Ain,UAE,University fees
+MKB0043,Carrefour,Carrefour,L0.CARD,L1.BUY,V.RETL,,\bCarrefour\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0044,Lulu Hypermarket,Lulu Hypermarket,L0.CARD,L1.BUY,V.RETL,,\bLulu\s*Hypermarket\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0045,Spinneys,Spinneys,L0.CARD,L1.BUY,V.RETL,,\bSpinneys\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0046,Union Coop,Union Coop,L0.CARD,L1.BUY,V.RETL,,\bUnion\s*Coop\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0047,Grandiose,Grandiose,L0.CARD,L1.BUY,V.RETL,,\bGrandiose\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0048,Carrefour Market,Carrefour Market,L0.CARD,L1.BUY,V.RETL,,\bCarrefour\s*Market\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0049,Choithrams,Choithrams,L0.CARD,L1.BUY,V.RETL,,\bChoithrams\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0050,West Zone,West Zone,L0.CARD,L1.BUY,V.RETL,,\bWest\s*Zone\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0051,Day to Day,Day to Day,L0.CARD,L1.BUY,V.RETL,,\bDay\s*to\s*Day\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0052,Nesto,Nesto,L0.CARD,L1.BUY,V.RETL,,\bNesto\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0053,Baquer Mohebi,Baquer Mohebi,L0.CARD,L1.BUY,V.RETL,,\bBaquer\s*Mohebi\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0054,Al Adil,Al Adil,L0.CARD,L1.BUY,V.RETL,,\bAl\s*Adil\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0055,KM Trading,KM Trading,L0.CARD,L1.BUY,V.RETL,,\bKM\s*Trading\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0056,Khalifa City Coop,Khalifa City Coop,L0.CARD,L1.BUY,V.RETL,,\bKhalifa\s*City\s*Coop\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0057,Al Maya,Al Maya,L0.CARD,L1.BUY,V.RETL,,\bAl\s*Maya\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0058,Geant,Geant,L0.CARD,L1.BUY,V.RETL,,\bGeant\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0059,Waitrose UAE,Waitrose UAE,L0.CARD,L1.BUY,V.RETL,,\bWaitrose\s*UAE\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0060,IKEA Dubai,IKEA Dubai,L0.CARD,L1.BUY,V.RETL,,\bIKEA\s*Dubai\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0061,ACE Hardware,ACE Hardware,L0.CARD,L1.BUY,V.RETL,,\bACE\s*Hardware\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0062,Dragon Mart,Dragon Mart,L0.CARD,L1.BUY,V.RETL,,\bDragon\s*Mart\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0063,Dubai Duty Free,Dubai Duty Free,L0.CARD,L1.BUY,V.RETL,,\bDubai\s*Duty\s*Free\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0064,Sharaf DG,Sharaf DG,L0.CARD,L1.BUY,V.RETL,,\bSharaf\s*DG\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0065,Jumbo Electronics,Jumbo Electronics,L0.CARD,L1.BUY,V.RETL,,\bJumbo\s*Electronics\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0066,Emax,Emax,L0.CARD,L1.BUY,V.RETL,,\bEmax\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0067,Virgin Megastore,Virgin Megastore,L0.CARD,L1.BUY,V.RETL,,\bVirgin\s*Megastore\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0068,Noon,Noon,L0.CARD,L1.BUY,V.RETL,,\bNoon\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0069,Amazon AE,Amazon AE,L0.CARD,L1.BUY,V.RETL,,\bAmazon\s*AE\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0070,Namshi,Namshi,L0.CARD,L1.BUY,V.RETL,,\bNamshi\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0071,Centrepoint,Centrepoint,L0.CARD,L1.BUY,V.RETL,,\bCentrepoint\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0072,Max Fashion,Max Fashion,L0.CARD,L1.BUY,V.RETL,,\bMax\s*Fashion\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0073,Splash,Splash,L0.CARD,L1.BUY,V.RETL,,\bSplash\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0074,Carters,Carters,L0.CARD,L1.BUY,V.RETL,,\bCarters\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0075,Babyshop,Babyshop,L0.CARD,L1.BUY,V.RETL,,\bBabyshop\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0076,Sun & Sand Sports,Sun & Sand Sports,L0.CARD,L1.BUY,V.RETL,,\bSun\s*&\s*Sand\s*Sports\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0077,Decathlon,Decathlon,L0.CARD,L1.BUY,V.RETL,,\bDecathlon\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0078,Skechers,Skechers,L0.CARD,L1.BUY,V.RETL,,\bSkechers\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0079,Aldo,Aldo,L0.CARD,L1.BUY,V.RETL,,\bAldo\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0080,Charles & Keith,Charles & Keith,L0.CARD,L1.BUY,V.RETL,,\bCharles\s*&\s*Keith\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0081,Sephora,Sephora,L0.CARD,L1.BUY,V.RETL,,\bSephora\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0082,Faces,Faces,L0.CARD,L1.BUY,V.RETL,,\bFaces\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0083,Bath & Body Works,Bath & Body Works,L0.CARD,L1.BUY,V.RETL,,\bBath\s*&\s*Body\s*Works\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0084,Daiso Japan,Daiso Japan,L0.CARD,L1.BUY,V.RETL,,\bDaiso\s*Japan\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0085,Home Centre,Home Centre,L0.CARD,L1.BUY,V.RETL,,\bHome\s*Centre\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0086,Home Box,Home Box,L0.CARD,L1.BUY,V.RETL,,\bHome\s*Box\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0087,IKEA Abu Dhabi,IKEA Abu Dhabi,L0.CARD,L1.BUY,V.RETL,,\bIKEA\s*Abu\s*Dhabi\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0088,Typo,Typo,L0.CARD,L1.BUY,V.RETL,,\bTypo\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0089,Miniso,Miniso,L0.CARD,L1.BUY,V.RETL,,\bMiniso\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0090,Muji,Muji,L0.CARD,L1.BUY,V.RETL,,\bMuji\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0091,Giordano,Giordano,L0.CARD,L1.BUY,V.RETL,,\bGiordano\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0092,Levi's,Levi's,L0.CARD,L1.BUY,V.RETL,,\bLevi's\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0093,H&M,H&M,L0.CARD,L1.BUY,V.RETL,,\bH&M\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0094,Zara,Zara,L0.CARD,L1.BUY,V.RETL,,\bZara\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0095,Pull&Bear,Pull&Bear,L0.CARD,L1.BUY,V.RETL,,\bPull&Bear\b,5411,CARD,Private,,Abu Dhabi,UAE,Retail spend
+MKB0096,Bershka,Bershka,L0.CARD,L1.BUY,V.RETL,,\bBershka\b,5411,CARD,Private,,Sharjah,UAE,Retail spend
+MKB0097,Stradivarius,Stradivarius,L0.CARD,L1.BUY,V.RETL,,\bStradivarius\b,5411,CARD,Private,,Dubai,UAE,Retail spend
+MKB0098,McDonald's UAE,McDonald's UAE,L0.CARD,L1.BUY,V.FOOD,,\bMcDonald's\s*UAE\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0099,KFC UAE,KFC UAE,L0.CARD,L1.BUY,V.FOOD,,\bKFC\s*UAE\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0100,Talabat,Talabat,L0.CARD,L1.BUY,V.FOOD,,\bTalabat\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0101,Deliveroo,Deliveroo,L0.CARD,L1.BUY,V.FOOD,,\bDeliveroo\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0102,Zomato,Zomato,L0.CARD,L1.BUY,V.FOOD,,\bZomato\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0103,Subway,Subway,L0.CARD,L1.BUY,V.FOOD,,\bSubway\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0104,Burger King,Burger King,L0.CARD,L1.BUY,V.FOOD,,\bBurger\s*King\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0105,Pizza Hut,Pizza Hut,L0.CARD,L1.BUY,V.FOOD,,\bPizza\s*Hut\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0106,Domino's,Domino's,L0.CARD,L1.BUY,V.FOOD,,\bDomino's\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0107,Papa John's,Papa John's,L0.CARD,L1.BUY,V.FOOD,,\bPapa\s*John's\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0108,Hardee's,Hardee's,L0.CARD,L1.BUY,V.FOOD,,\bHardee's\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0109,Texas Roadhouse,Texas Roadhouse,L0.CARD,L1.BUY,V.FOOD,,\bTexas\s*Roadhouse\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0110,PF Chang's,PF Chang's,L0.CARD,L1.BUY,V.FOOD,,\bPF\s*Chang's\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0111,Cheesecake Factory,Cheesecake Factory,L0.CARD,L1.BUY,V.FOOD,,\bCheesecake\s*Factory\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0112,Paul,Paul,L0.CARD,L1.BUY,V.FOOD,,\bPaul\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0113,Tim Hortons,Tim Hortons,L0.CARD,L1.BUY,V.FOOD,,\bTim\s*Hortons\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0114,Costa Coffee,Costa Coffee,L0.CARD,L1.BUY,V.FOOD,,\bCosta\s*Coffee\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0115,Starbucks,Starbucks,L0.CARD,L1.BUY,V.FOOD,,\bStarbucks\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0116,Caribou Coffee,Caribou Coffee,L0.CARD,L1.BUY,V.FOOD,,\bCaribou\s*Coffee\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0117,Dunkin,Dunkin,L0.CARD,L1.BUY,V.FOOD,,\bDunkin\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0118,Jollibee,Jollibee,L0.CARD,L1.BUY,V.FOOD,,\bJollibee\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0119,Five Guys,Five Guys,L0.CARD,L1.BUY,V.FOOD,,\bFive\s*Guys\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0120,Shake Shack,Shake Shack,L0.CARD,L1.BUY,V.FOOD,,\bShake\s*Shack\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0121,Nando's,Nando's,L0.CARD,L1.BUY,V.FOOD,,\bNando's\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0122,TGI Fridays,TGI Fridays,L0.CARD,L1.BUY,V.FOOD,,\bTGI\s*Fridays\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0123,Chili's,Chili's,L0.CARD,L1.BUY,V.FOOD,,\bChili's\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0124,Al Baik,Al Baik,L0.CARD,L1.BUY,V.FOOD,,\bAl\s*Baik\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0125,Biryani Pot,Biryani Pot,L0.CARD,L1.BUY,V.FOOD,,\bBiryani\s*Pot\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0126,Calicut Paragon,Calicut Paragon,L0.CARD,L1.BUY,V.FOOD,,\bCalicut\s*Paragon\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0127,Gazebo,Gazebo,L0.CARD,L1.BUY,V.FOOD,,\bGazebo\b,5814,CARD,Private,,Sharjah,UAE,Food & QSR
+MKB0128,Bikanervala,Bikanervala,L0.CARD,L1.BUY,V.FOOD,,\bBikanervala\b,5814,CARD,Private,,Dubai,UAE,Food & QSR
+MKB0129,Popeyes,Popeyes,L0.CARD,L1.BUY,V.FOOD,,\bPopeyes\b,5814,CARD,Private,,Abu Dhabi,UAE,Food & QSR
+MKB0130,STARZPLAY,STARZPLAY,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bSTARZPLAY\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0131,Shahid,Shahid,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bShahid\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0132,Anghami,Anghami,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bAnghami\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0133,Apple Services,Apple Services,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bApple\s*Services\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0134,Google Play,Google Play,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bGoogle\s*Play\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0135,Fitness First,Fitness First,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bFitness\s*First\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0136,GymNation,GymNation,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bGymNation\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0137,Gold's Gym,Gold's Gym,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bGold's\s*Gym\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0138,VOX Cinemas,VOX Cinemas,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bVOX\s*Cinemas\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0139,Reel Cinemas,Reel Cinemas,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bReel\s*Cinemas\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0140,Roxy Cinemas,Roxy Cinemas,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bRoxy\s*Cinemas\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0141,Cinemacity,Cinemacity,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bCinemacity\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0142,OSN+,OSN+,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bOSN+\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0143,Spotify,Spotify,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bSpotify\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0144,Netflix,Netflix,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bNetflix\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0145,Microsoft 365,Microsoft 365,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bMicrosoft\s*365\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0146,Adobe,Adobe,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bAdobe\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0147,Canva,Canva,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bCanva\b,4899,CARD,Private,,Sharjah,UAE,Subscriptions/Lifestyle
+MKB0148,Du add-ons,Du add-ons,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bDu\s*add-ons\b,4899,CARD,Private,,Dubai,UAE,Subscriptions/Lifestyle
+MKB0149,Etisalat add-ons,Etisalat add-ons,L0.CARD,L1.BUY,V.LIFE,CX.SUB,\bEtisalat\s*add-ons\b,4899,CARD,Private,,Abu Dhabi,UAE,Subscriptions/Lifestyle
+MKB0150,Life Pharmacy,Life Pharmacy,L0.CARD,L1.MED,V.HEAL,,\bLife\s*Pharmacy\b,5912,CARD,Private,,Dubai,UAE,Pharmacies
+MKB0151,Aster Pharmacy,Aster Pharmacy,L0.CARD,L1.MED,V.HEAL,,\bAster\s*Pharmacy\b,5912,CARD,Private,,Abu Dhabi,UAE,Pharmacies
+MKB0152,BinSina Pharmacy,BinSina Pharmacy,L0.CARD,L1.MED,V.HEAL,,\bBinSina\s*Pharmacy\b,5912,CARD,Private,,Sharjah,UAE,Pharmacies
+MKB0153,Medicina Pharmacy,Medicina Pharmacy,L0.CARD,L1.MED,V.HEAL,,\bMedicina\s*Pharmacy\b,5912,CARD,Private,,Dubai,UAE,Pharmacies
+MKB0154,Supercare Pharmacy,Supercare Pharmacy,L0.CARD,L1.MED,V.HEAL,,\bSupercare\s*Pharmacy\b,5912,CARD,Private,,Abu Dhabi,UAE,Pharmacies
+MKB0155,RTA Taxi,RTA Taxi,L0.CARD,L1.BUY,V.TRAV,,\bRTA\s*Taxi\b,4121,CARD,Private,,Dubai,UAE,Travel & transport
+MKB0156,Dubai Metro,Dubai Metro,L0.CARD,L1.BUY,V.TRAV,,\bDubai\s*Metro\b,7011,CARD,Private,,Abu Dhabi,UAE,Travel & transport
+MKB0157,Uber UAE,Uber UAE,L0.CARD,L1.BUY,V.TRAV,,\bUber\s*UAE\b,7011,CARD,Private,,Sharjah,UAE,Travel & transport
+MKB0158,Hala Taxi,Hala Taxi,L0.CARD,L1.BUY,V.TRAV,,\bHala\s*Taxi\b,4121,CARD,Private,,Dubai,UAE,Travel & transport
+MKB0159,Holiday Inn,Holiday Inn,L0.CARD,L1.BUY,V.TRAV,,\bHoliday\s*Inn\b,7011,CARD,Private,,Abu Dhabi,UAE,Travel & transport
+MKB0160,Hilton Hotels,Hilton Hotels,L0.CARD,L1.BUY,V.TRAV,,\bHilton\s*Hotels\b,7011,CARD,Private,,Sharjah,UAE,Travel & transport
+MKB0161,Marriott,Marriott,L0.CARD,L1.BUY,V.TRAV,,\bMarriott\b,7011,CARD,Private,,Dubai,UAE,Travel & transport
+MKB0162,Rotana,Rotana,L0.CARD,L1.BUY,V.TRAV,,\bRotana\b,7011,CARD,Private,,Abu Dhabi,UAE,Travel & transport
+MKB0163,Millennium Hotels,Millennium Hotels,L0.CARD,L1.BUY,V.TRAV,,\bMillennium\s*Hotels\b,7011,CARD,Private,,Sharjah,UAE,Travel & transport
+MKB0164,Jumeirah Hotels,Jumeirah Hotels,L0.CARD,L1.BUY,V.TRAV,,\bJumeirah\s*Hotels\b,7011,CARD,Private,,Dubai,UAE,Travel & transport
+MKB0165,Atlantis The Palm,Atlantis The Palm,L0.CARD,L1.BUY,V.TRAV,,\bAtlantis\s*The\s*Palm\b,7011,CARD,Private,,Abu Dhabi,UAE,Travel & transport
+MKB0166,Airbnb,Airbnb,L0.CARD,L1.BUY,V.TRAV,,\bAirbnb\b,7011,CARD,Private,,Sharjah,UAE,Travel & transport
+MKB0167,Bayut,Bayut,L0.A2A,L1.PROP,V.PROP,,\bBayut\b,7399,A2A,Private,,Dubai,UAE,Property marketplaces
+MKB0168,Property Finder,Property Finder,L0.A2A,L1.PROP,V.PROP,,\bProperty\s*Finder\b,7399,A2A,Private,,Abu Dhabi,UAE,Property marketplaces
+MKB0169,Dubizzle Payments,Dubizzle Payments,L0.A2A,L1.PROP,V.PROP,,\bDubizzle\s*Payments\b,7399,A2A,Private,,Sharjah,UAE,Property marketplaces
+MKB0170,Dubai International Academic City Fees,Dubai International Academic City Fees,L0.A2A,L1.EDU,V.EDU,,\bDubai\s*International\s*Academic\s*City\s*Fees\b,8220,A2A,Government,,Dubai,UAE,Regulatory/education fees
+MKB0171,KHDA Fees,KHDA Fees,L0.A2A,L1.EDU,V.EDU,,\bKHDA\s*Fees\b,8220,A2A,Government,,Abu Dhabi,UAE,Regulatory/education fees
+MKB0172,ADEK Fees,ADEK Fees,L0.A2A,L1.EDU,V.EDU,,\bADEK\s*Fees\b,8220,A2A,Government,,Sharjah,UAE,Regulatory/education fees
+MKB0173,RAKBANK,RAKBANK,L0.FEE,L1.FEE,V.BANK,,\bRAKBANK\b,,A2A; CARD,Private,regulated,Dubai,UAE,Bank fees/charges
+MKB0174,Commercial Bank International,Commercial Bank International,L0.FEE,L1.FEE,V.BANK,,\bCommercial\s*Bank\s*International\b,,A2A; CARD,Private,regulated,Abu Dhabi,UAE,Bank fees/charges
+MKB0175,HSBC UAE,HSBC UAE,L0.FEE,L1.FEE,V.BANK,,\bHSBC\s*UAE\b,,A2A; CARD,Private,regulated,Sharjah,UAE,Bank fees/charges
+MKB0176,Standard Chartered UAE,Standard Chartered UAE,L0.FEE,L1.FEE,V.BANK,,\bStandard\s*Chartered\s*UAE\b,,A2A; CARD,Private,regulated,Dubai,UAE,Bank fees/charges
+MKB0177,Citi UAE,Citi UAE,L0.FEE,L1.FEE,V.BANK,,\bCiti\s*UAE\b,,A2A; CARD,Private,regulated,Abu Dhabi,UAE,Bank fees/charges
+MKB0178,eToro,eToro,L0.A2A,L1.INV,V.VASP,CX.RISK,\beToro\b,6051,A2A; CARD,Private,vasp,Dubai,UAE,Crypto exchange/broker
+MKB0179,Crypto.com,Crypto.com,L0.A2A,L1.INV,V.VASP,CX.RISK,\bCrypto.com\b,6051,A2A; CARD,Private,vasp,Abu Dhabi,UAE,Crypto exchange/broker
+MKB0180,Kraken,Kraken,L0.A2A,L1.INV,V.VASP,CX.RISK,\bKraken\b,6051,A2A; CARD,Private,vasp,Sharjah,UAE,Crypto exchange/broker
+MKB0181,Dubai Mall,Dubai Mall,L0.CARD,L1.BUY,V.RETL,,\bDubai\s*Mall\b,5411,CARD,Private,,Dubai,UAE,Mall retail
+MKB0182,Mall of the Emirates,Mall of the Emirates,L0.CARD,L1.BUY,V.RETL,,\bMall\s*of\s*the\s*Emirates\b,5411,CARD,Private,,Abu Dhabi,UAE,Mall retail
+MKB0183,Ibn Battuta Mall,Ibn Battuta Mall,L0.CARD,L1.BUY,V.RETL,,\bIbn\s*Battuta\s*Mall\b,5411,CARD,Private,,Sharjah,UAE,Mall retail
+MKB0184,City Centre Deira,City Centre Deira,L0.CARD,L1.BUY,V.RETL,,\bCity\s*Centre\s*Deira\b,5411,CARD,Private,,Dubai,UAE,Mall retail
+MKB0185,City Centre Mirdif,City Centre Mirdif,L0.CARD,L1.BUY,V.RETL,,\bCity\s*Centre\s*Mirdif\b,5411,CARD,Private,,Abu Dhabi,UAE,Mall retail
+MKB0186,Marina Mall,Marina Mall,L0.CARD,L1.BUY,V.RETL,,\bMarina\s*Mall\b,5411,CARD,Private,,Sharjah,UAE,Mall retail
+MKB0187,Yas Mall,Yas Mall,L0.CARD,L1.BUY,V.RETL,,\bYas\s*Mall\b,5411,CARD,Private,,Dubai,UAE,Mall retail
+MKB0188,Al Wahda Mall,Al Wahda Mall,L0.CARD,L1.BUY,V.RETL,,\bAl\s*Wahda\s*Mall\b,5411,CARD,Private,,Abu Dhabi,UAE,Mall retail
+MKB0189,Sahara Centre,Sahara Centre,L0.CARD,L1.BUY,V.RETL,,\bSahara\s*Centre\b,5411,CARD,Private,,Sharjah,UAE,Mall retail
+MKB0190,Al Ghurair Centre,Al Ghurair Centre,L0.CARD,L1.BUY,V.RETL,,\bAl\s*Ghurair\s*Centre\b,5411,CARD,Private,,Dubai,UAE,Mall retail
+MKB0191,Mercato Mall,Mercato Mall,L0.CARD,L1.BUY,V.RETL,,\bMercato\s*Mall\b,5411,CARD,Private,,Abu Dhabi,UAE,Mall retail
+MKB0192,Dubai Festival City,Dubai Festival City,L0.CARD,L1.BUY,V.RETL,,\bDubai\s*Festival\s*City\b,5411,CARD,Private,,Sharjah,UAE,Mall retail
+MKB0193,Nakheel Mall,Nakheel Mall,L0.CARD,L1.BUY,V.RETL,,\bNakheel\s*Mall\b,5411,CARD,Private,,Dubai,UAE,Mall retail
+MKB0194,Circle Mall,Circle Mall,L0.CARD,L1.BUY,V.RETL,,\bCircle\s*Mall\b,5411,CARD,Private,,Abu Dhabi,UAE,Mall retail
+MKB0195,Deerfields Mall,Deerfields Mall,L0.CARD,L1.BUY,V.RETL,,\bDeerfields\s*Mall\b,5411,CARD,Private,,Sharjah,UAE,Mall retail
+MKB0196,Deliveroo Rider Payouts,Deliveroo Rider Payouts,L0.A2A,L1.INC,V.GIG,,\bDeliveroo\s*Rider\s*Payouts\b,,A2A,Private,,Dubai,UAE,Gig income
+MKB0197,Rizek Payouts,Rizek Payouts,L0.A2A,L1.INC,V.GIG,,\bRizek\s*Payouts\b,,A2A,Private,,Abu Dhabi,UAE,Gig income
+MKB0198,Upwork Payouts,Upwork Payouts,L0.A2A,L1.INC,V.GIG,,\bUpwork\s*Payouts\b,,A2A,Private,,Sharjah,UAE,Gig income
+MKB0199,Fiverr Payouts,Fiverr Payouts,L0.A2A,L1.INC,V.GIG,,\bFiverr\s*Payouts\b,,A2A,Private,,Dubai,UAE,Gig income
+MKB0200,Local Merchant 1,Local Merchant 1,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*1\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0201,Local Merchant 2,Local Merchant 2,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*2\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0202,Local Merchant 3,Local Merchant 3,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*3\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0203,Local Merchant 4,Local Merchant 4,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*4\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0204,Local Merchant 5,Local Merchant 5,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*5\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0205,Local Merchant 6,Local Merchant 6,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*6\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0206,Local Merchant 7,Local Merchant 7,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*7\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0207,Local Merchant 8,Local Merchant 8,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*8\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0208,Local Merchant 9,Local Merchant 9,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*9\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0209,Local Merchant 10,Local Merchant 10,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*10\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0210,Local Merchant 11,Local Merchant 11,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*11\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0211,Local Merchant 12,Local Merchant 12,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*12\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0212,Local Merchant 13,Local Merchant 13,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*13\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0213,Local Merchant 14,Local Merchant 14,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*14\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0214,Local Merchant 15,Local Merchant 15,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*15\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0215,Local Merchant 16,Local Merchant 16,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*16\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0216,Local Merchant 17,Local Merchant 17,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*17\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0217,Local Merchant 18,Local Merchant 18,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*18\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0218,Local Merchant 19,Local Merchant 19,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*19\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0219,Local Merchant 20,Local Merchant 20,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*20\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0220,Local Merchant 21,Local Merchant 21,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*21\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0221,Local Merchant 22,Local Merchant 22,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*22\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0222,Local Merchant 23,Local Merchant 23,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*23\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0223,Local Merchant 24,Local Merchant 24,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*24\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0224,Local Merchant 25,Local Merchant 25,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*25\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0225,Local Merchant 26,Local Merchant 26,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*26\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0226,Local Merchant 27,Local Merchant 27,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*27\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0227,Local Merchant 28,Local Merchant 28,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*28\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0228,Local Merchant 29,Local Merchant 29,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*29\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0229,Local Merchant 30,Local Merchant 30,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*30\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0230,Local Merchant 31,Local Merchant 31,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*31\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0231,Local Merchant 32,Local Merchant 32,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*32\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0232,Local Merchant 33,Local Merchant 33,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*33\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0233,Local Merchant 34,Local Merchant 34,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*34\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0234,Local Merchant 35,Local Merchant 35,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*35\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0235,Local Merchant 36,Local Merchant 36,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*36\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0236,Local Merchant 37,Local Merchant 37,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*37\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0237,Local Merchant 38,Local Merchant 38,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*38\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0238,Local Merchant 39,Local Merchant 39,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*39\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0239,Local Merchant 40,Local Merchant 40,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*40\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0240,Local Merchant 41,Local Merchant 41,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*41\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0241,Local Merchant 42,Local Merchant 42,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*42\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0242,Local Merchant 43,Local Merchant 43,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*43\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0243,Local Merchant 44,Local Merchant 44,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*44\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0244,Local Merchant 45,Local Merchant 45,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*45\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0245,Local Merchant 46,Local Merchant 46,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*46\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0246,Local Merchant 47,Local Merchant 47,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*47\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0247,Local Merchant 48,Local Merchant 48,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*48\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0248,Local Merchant 49,Local Merchant 49,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*49\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0249,Local Merchant 50,Local Merchant 50,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*50\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0250,Local Merchant 51,Local Merchant 51,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*51\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0251,Local Merchant 52,Local Merchant 52,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*52\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0252,Local Merchant 53,Local Merchant 53,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*53\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0253,Local Merchant 54,Local Merchant 54,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*54\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0254,Local Merchant 55,Local Merchant 55,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*55\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0255,Local Merchant 56,Local Merchant 56,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*56\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0256,Local Merchant 57,Local Merchant 57,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*57\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0257,Local Merchant 58,Local Merchant 58,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*58\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0258,Local Merchant 59,Local Merchant 59,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*59\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0259,Local Merchant 60,Local Merchant 60,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*60\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0260,Local Merchant 61,Local Merchant 61,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*61\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0261,Local Merchant 62,Local Merchant 62,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*62\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0262,Local Merchant 63,Local Merchant 63,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*63\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0263,Local Merchant 64,Local Merchant 64,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*64\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0264,Local Merchant 65,Local Merchant 65,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*65\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0265,Local Merchant 66,Local Merchant 66,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*66\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0266,Local Merchant 67,Local Merchant 67,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*67\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0267,Local Merchant 68,Local Merchant 68,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*68\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0268,Local Merchant 69,Local Merchant 69,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*69\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0269,Local Merchant 70,Local Merchant 70,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*70\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0270,Local Merchant 71,Local Merchant 71,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*71\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0271,Local Merchant 72,Local Merchant 72,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*72\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0272,Local Merchant 73,Local Merchant 73,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*73\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0273,Local Merchant 74,Local Merchant 74,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*74\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0274,Local Merchant 75,Local Merchant 75,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*75\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0275,Local Merchant 76,Local Merchant 76,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*76\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0276,Local Merchant 77,Local Merchant 77,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*77\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0277,Local Merchant 78,Local Merchant 78,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*78\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0278,Local Merchant 79,Local Merchant 79,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*79\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0279,Local Merchant 80,Local Merchant 80,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*80\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0280,Local Merchant 81,Local Merchant 81,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*81\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0281,Local Merchant 82,Local Merchant 82,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*82\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0282,Local Merchant 83,Local Merchant 83,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*83\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0283,Local Merchant 84,Local Merchant 84,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*84\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0284,Local Merchant 85,Local Merchant 85,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*85\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0285,Local Merchant 86,Local Merchant 86,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*86\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0286,Local Merchant 87,Local Merchant 87,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*87\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0287,Local Merchant 88,Local Merchant 88,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*88\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0288,Local Merchant 89,Local Merchant 89,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*89\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0289,Local Merchant 90,Local Merchant 90,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*90\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0290,Local Merchant 91,Local Merchant 91,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*91\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0291,Local Merchant 92,Local Merchant 92,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*92\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0292,Local Merchant 93,Local Merchant 93,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*93\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0293,Local Merchant 94,Local Merchant 94,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*94\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0294,Local Merchant 95,Local Merchant 95,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*95\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0295,Local Merchant 96,Local Merchant 96,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*96\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0296,Local Merchant 97,Local Merchant 97,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*97\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0297,Local Merchant 98,Local Merchant 98,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*98\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0298,Local Merchant 99,Local Merchant 99,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*99\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0299,Local Merchant 100,Local Merchant 100,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*100\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion
+MKB0300,Local Merchant 101,Local Merchant 101,L0.CARD,L1.BUY,V.RETL,,\bLocal\s*Merchant\s*101\b,5411,CARD,Private,,Dubai,UAE,Placeholder for expansion

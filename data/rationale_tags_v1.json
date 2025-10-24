@@ -1,0 +1,78 @@
+{
+  "version": "rat_v1.0",
+  "signals": [
+    {
+      "code": "MKB_MATCH",
+      "desc": "Matched merchant by regex/alias in MKB",
+      "weight": 5
+    },
+    {
+      "code": "MCC_MATCH",
+      "desc": "MCC maps to vertical",
+      "weight": 2
+    },
+    {
+      "code": "PERIODICITY_30D",
+      "desc": "Recurs roughly monthly (28-33 days)",
+      "weight": 2
+    },
+    {
+      "code": "AMOUNT_RANGE_TYPICAL",
+      "desc": "Amount fits typical range for category",
+      "weight": 1
+    },
+    {
+      "code": "CHANNEL_HINT",
+      "desc": "Payment channel suggests category",
+      "weight": 1
+    },
+    {
+      "code": "ARABIC_KEYWORD",
+      "desc": "Arabic term indicating category (e.g., فاتورة)",
+      "weight": 1
+    },
+    {
+      "code": "GEO_PROXIMITY",
+      "desc": "Geo near known store/merchant city",
+      "weight": 1
+    },
+    {
+      "code": "PURPOSE_CODE_FX",
+      "desc": "Remittance purpose code implies intent",
+      "weight": 3
+    },
+    {
+      "code": "IBAN_PREFIX",
+      "desc": "Counterparty IBAN/biller ID match",
+      "weight": 3
+    },
+    {
+      "code": "CONFLICT",
+      "desc": "Conflicting signals present",
+      "weight": -3
+    }
+  ],
+  "thresholds": {
+    "V.UTIL": 6,
+    "V.TELC": 5,
+    "V.TOLL": 5,
+    "V.FUEL": 5,
+    "V.REMX": 6,
+    "V.GOVT": 5,
+    "V.PROP": 6,
+    "V.INS": 5,
+    "V.HEAL": 5,
+    "V.EDU": 5,
+    "V.RETL": 4,
+    "V.FOOD": 4,
+    "V.TRAV": 4,
+    "V.LIFE": 4,
+    "V.GIG": 5,
+    "V.VASP": 6,
+    "V.BANK": 4
+  },
+  "confidence": {
+    "method": "sigmoid_score",
+    "notes": "Confidence derived from weighted sum vs threshold"
+  }
+}
